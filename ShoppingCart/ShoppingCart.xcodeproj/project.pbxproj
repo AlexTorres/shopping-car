@@ -7,21 +7,60 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA0A2E751BAFA6F800CDFF9B /* TotalBuyViewControllerDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0A2E741BAFA6F800CDFF9B /* TotalBuyViewControllerDataSource.swift */; settings = {ASSET_TAGS = (); }; };
 		FA3E47651BACDBC8000CA56B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3E47641BACDBC8000CA56B /* AppDelegate.swift */; };
-		FA3E47671BACDBC8000CA56B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3E47661BACDBC8000CA56B /* ViewController.swift */; };
 		FA3E476A1BACDBC8000CA56B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA3E47681BACDBC8000CA56B /* Main.storyboard */; };
 		FA3E476C1BACDBC8000CA56B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA3E476B1BACDBC8000CA56B /* Assets.xcassets */; };
 		FA3E476F1BACDBC8000CA56B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA3E476D1BACDBC8000CA56B /* LaunchScreen.storyboard */; };
+		FA3E47791BACEBA3000CA56B /* ViewControllerUITableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3E47781BACEBA2000CA56B /* ViewControllerUITableViewDataSource.swift */; settings = {ASSET_TAGS = (); }; };
+		FA3E47801BACF1DE000CA56B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3E477F1BACF1DE000CA56B /* Constants.swift */; settings = {ASSET_TAGS = (); }; };
+		FA8B54CE1BAE1CD60088E315 /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8B54CD1BAE1CD60088E315 /* ProductTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
+		FA8B54D31BAE1D070088E315 /* dummy.json in Resources */ = {isa = PBXBuildFile; fileRef = FA8B54D01BAE1D070088E315 /* dummy.json */; settings = {ASSET_TAGS = (); }; };
+		FA8B54D41BAE1D070088E315 /* ProductModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FA8B54D11BAE1D070088E315 /* ProductModel.xcdatamodeld */; settings = {ASSET_TAGS = (); }; };
+		FA8B54D61BAE1D540088E315 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8B54D51BAE1D540088E315 /* ViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		FA8B54DA1BAE1D6D0088E315 /* ViewControllerProductCellDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8B54D91BAE1D6D0088E315 /* ViewControllerProductCellDelegate.swift */; settings = {ASSET_TAGS = (); }; };
+		FA8B54DF1BAE1E470088E315 /* Product+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8B54DD1BAE1E470088E315 /* Product+CoreDataProperties.swift */; settings = {ASSET_TAGS = (); }; };
+		FA8B54E01BAE1E470088E315 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8B54DE1BAE1E470088E315 /* Product.swift */; settings = {ASSET_TAGS = (); }; };
+		FA8B54E41BAE2D170088E315 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8B54E31BAE2D170088E315 /* Manager.swift */; settings = {ASSET_TAGS = (); }; };
+		FA8B54E61BAE33D70088E315 /* ProdcutsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8B54E51BAE33D70088E315 /* ProdcutsManager.swift */; settings = {ASSET_TAGS = (); }; };
+		FA8B54F21BAF09C40088E315 /* Product+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8B54F11BAF09C40088E315 /* Product+Utils.swift */; settings = {ASSET_TAGS = (); }; };
+		FA8B54FF1BAF52D80088E315 /* TotalBuyModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8B54FE1BAF52D80088E315 /* TotalBuyModalViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		FA8B55011BAF530C0088E315 /* TotalBuyViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8B55001BAF530C0088E315 /* TotalBuyViewCell.swift */; settings = {ASSET_TAGS = (); }; };
+		FA8B55231BAF68B10088E315 /* ViewControllerNSFetchedResultsControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8B55221BAF68B10088E315 /* ViewControllerNSFetchedResultsControllerDelegate.swift */; settings = {ASSET_TAGS = (); }; };
+		FA8B55251BAF6AE30088E315 /* ViewController+CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8B55241BAF6AE30088E315 /* ViewController+CoreData.swift */; settings = {ASSET_TAGS = (); }; };
+		FA8B55271BAF6BA70088E315 /* ProductsManager+NSFechedResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8B55261BAF6BA70088E315 /* ProductsManager+NSFechedResultsViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		FEE7232CBE95D90D2655A7D8 /* Pods_ShoppingCart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49F6FF6DAF98F19B148495DD /* Pods_ShoppingCart.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		29BD1CC3EA19A9CDEA169D52 /* Pods-ShoppingCart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShoppingCart.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShoppingCart/Pods-ShoppingCart.debug.xcconfig"; sourceTree = "<group>"; };
+		49F6FF6DAF98F19B148495DD /* Pods_ShoppingCart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShoppingCart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		78D1DE1E3FD71567A5FB41A3 /* Pods-ShoppingCart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShoppingCart.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShoppingCart/Pods-ShoppingCart.release.xcconfig"; sourceTree = "<group>"; };
+		FA0A2E741BAFA6F800CDFF9B /* TotalBuyViewControllerDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TotalBuyViewControllerDataSource.swift; sourceTree = "<group>"; };
 		FA3E47611BACDBC8000CA56B /* ShoppingCart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShoppingCart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA3E47641BACDBC8000CA56B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FA3E47661BACDBC8000CA56B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FA3E47691BACDBC8000CA56B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FA3E476B1BACDBC8000CA56B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA3E476E1BACDBC8000CA56B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA3E47701BACDBC8000CA56B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA3E47781BACEBA2000CA56B /* ViewControllerUITableViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewControllerUITableViewDataSource.swift; path = ViewControllers/MainViewController/ViewControllerUITableViewDataSource.swift; sourceTree = "<group>"; };
+		FA3E477F1BACF1DE000CA56B /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		FA8B54CD1BAE1CD60088E315 /* ProductTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProductTableViewCell.swift; path = ViewControllers/MainViewController/ProductCell/ProductTableViewCell.swift; sourceTree = "<group>"; };
+		FA8B54D01BAE1D070088E315 /* dummy.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dummy.json; sourceTree = "<group>"; };
+		FA8B54D21BAE1D070088E315 /* ProductModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ProductModel.xcdatamodel; sourceTree = "<group>"; };
+		FA8B54D51BAE1D540088E315 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ViewControllers/MainViewController/ViewController.swift; sourceTree = "<group>"; };
+		FA8B54D91BAE1D6D0088E315 /* ViewControllerProductCellDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewControllerProductCellDelegate.swift; path = ViewControllers/MainViewController/ViewControllerProductCellDelegate.swift; sourceTree = "<group>"; };
+		FA8B54DD1BAE1E470088E315 /* Product+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Product+CoreDataProperties.swift"; path = "Models/Product+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		FA8B54DE1BAE1E470088E315 /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Product.swift; path = Models/Product.swift; sourceTree = "<group>"; };
+		FA8B54E31BAE2D170088E315 /* Manager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Manager.swift; path = Managers/Manager.swift; sourceTree = "<group>"; };
+		FA8B54E51BAE33D70088E315 /* ProdcutsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProdcutsManager.swift; path = Managers/ProdcutsManager.swift; sourceTree = "<group>"; };
+		FA8B54ED1BAE39C30088E315 /* ShoppingCart-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ShoppingCart-Bridging-Header.h"; sourceTree = "<group>"; };
+		FA8B54F11BAF09C40088E315 /* Product+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Product+Utils.swift"; path = "Models/Product+Utils.swift"; sourceTree = "<group>"; };
+		FA8B54FE1BAF52D80088E315 /* TotalBuyModalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TotalBuyModalViewController.swift; sourceTree = "<group>"; };
+		FA8B55001BAF530C0088E315 /* TotalBuyViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TotalBuyViewCell.swift; sourceTree = "<group>"; };
+		FA8B55221BAF68B10088E315 /* ViewControllerNSFetchedResultsControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerNSFetchedResultsControllerDelegate.swift; sourceTree = "<group>"; };
+		FA8B55241BAF6AE30088E315 /* ViewController+CoreData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "ViewController+CoreData.swift"; path = "ViewControllers/MainViewController/ViewController+CoreData.swift"; sourceTree = "<group>"; };
+		FA8B55261BAF6BA70088E315 /* ProductsManager+NSFechedResultsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "ProductsManager+NSFechedResultsViewController.swift"; path = "Managers/ProductsManager+NSFechedResultsViewController.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +68,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEE7232CBE95D90D2655A7D8 /* Pods_ShoppingCart.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3EE393FDA12FA7A57FA6379D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				29BD1CC3EA19A9CDEA169D52 /* Pods-ShoppingCart.debug.xcconfig */,
+				78D1DE1E3FD71567A5FB41A3 /* Pods-ShoppingCart.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		FA3E47581BACDBC8000CA56B = {
 			isa = PBXGroup;
 			children = (
 				FA3E47631BACDBC8000CA56B /* ShoppingCart */,
 				FA3E47621BACDBC8000CA56B /* Products */,
+				3EE393FDA12FA7A57FA6379D /* Pods */,
+				FD8E5399EB1E6F6335BF6697 /* Frameworks */,
+				FA8B54ED1BAE39C30088E315 /* ShoppingCart-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +106,104 @@
 		FA3E47631BACDBC8000CA56B /* ShoppingCart */ = {
 			isa = PBXGroup;
 			children = (
+				FA8B54DC1BAE1D8B0088E315 /* Managers */,
+				FA8B54DB1BAE1D7D0088E315 /* Models */,
+				FA8B54CF1BAE1D070088E315 /* SupportingFiles */,
+				FA3E47761BACE9DA000CA56B /* ViewContorllers */,
 				FA3E47641BACDBC8000CA56B /* AppDelegate.swift */,
-				FA3E47661BACDBC8000CA56B /* ViewController.swift */,
 				FA3E47681BACDBC8000CA56B /* Main.storyboard */,
 				FA3E476B1BACDBC8000CA56B /* Assets.xcassets */,
 				FA3E476D1BACDBC8000CA56B /* LaunchScreen.storyboard */,
 				FA3E47701BACDBC8000CA56B /* Info.plist */,
+				FA3E477F1BACF1DE000CA56B /* Constants.swift */,
 			);
 			path = ShoppingCart;
+			sourceTree = "<group>";
+		};
+		FA3E47761BACE9DA000CA56B /* ViewContorllers */ = {
+			isa = PBXGroup;
+			children = (
+				FA8B54FC1BAF52990088E315 /* TotalBuyModalViewController */,
+				FA3E47771BACE9EC000CA56B /* MainViewController */,
+			);
+			name = ViewContorllers;
+			sourceTree = "<group>";
+		};
+		FA3E47771BACE9EC000CA56B /* MainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FA3E477A1BACEFEF000CA56B /* ProductCell */,
+				FA3E47781BACEBA2000CA56B /* ViewControllerUITableViewDataSource.swift */,
+				FA8B54D91BAE1D6D0088E315 /* ViewControllerProductCellDelegate.swift */,
+				FA8B54D51BAE1D540088E315 /* ViewController.swift */,
+				FA8B55221BAF68B10088E315 /* ViewControllerNSFetchedResultsControllerDelegate.swift */,
+				FA8B55241BAF6AE30088E315 /* ViewController+CoreData.swift */,
+			);
+			name = MainViewController;
+			sourceTree = "<group>";
+		};
+		FA3E477A1BACEFEF000CA56B /* ProductCell */ = {
+			isa = PBXGroup;
+			children = (
+				FA8B54CD1BAE1CD60088E315 /* ProductTableViewCell.swift */,
+			);
+			name = ProductCell;
+			sourceTree = "<group>";
+		};
+		FA8B54CF1BAE1D070088E315 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				FA8B54D01BAE1D070088E315 /* dummy.json */,
+				FA8B54D11BAE1D070088E315 /* ProductModel.xcdatamodeld */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		FA8B54DB1BAE1D7D0088E315 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FA8B54DD1BAE1E470088E315 /* Product+CoreDataProperties.swift */,
+				FA8B54DE1BAE1E470088E315 /* Product.swift */,
+				FA8B54F11BAF09C40088E315 /* Product+Utils.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		FA8B54DC1BAE1D8B0088E315 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				FA8B54E31BAE2D170088E315 /* Manager.swift */,
+				FA8B54E51BAE33D70088E315 /* ProdcutsManager.swift */,
+				FA8B55261BAF6BA70088E315 /* ProductsManager+NSFechedResultsViewController.swift */,
+			);
+			name = Managers;
+			sourceTree = "<group>";
+		};
+		FA8B54FC1BAF52990088E315 /* TotalBuyModalViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FA8B54FE1BAF52D80088E315 /* TotalBuyModalViewController.swift */,
+				FA0A2E741BAFA6F800CDFF9B /* TotalBuyViewControllerDataSource.swift */,
+				FA8B54FD1BAF52990088E315 /* TotalViewCell */,
+			);
+			name = TotalBuyModalViewController;
+			path = ViewControllers/TotalBuyModalViewController;
+			sourceTree = "<group>";
+		};
+		FA8B54FD1BAF52990088E315 /* TotalViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				FA8B55001BAF530C0088E315 /* TotalBuyViewCell.swift */,
+			);
+			path = TotalViewCell;
+			sourceTree = "<group>";
+		};
+		FD8E5399EB1E6F6335BF6697 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				49F6FF6DAF98F19B148495DD /* Pods_ShoppingCart.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FA3E47731BACDBC8000CA56B /* Build configuration list for PBXNativeTarget "ShoppingCart" */;
 			buildPhases = (
+				FBC8184371E09D3A67B23F6B /* Check Pods Manifest.lock */,
 				FA3E475D1BACDBC8000CA56B /* Sources */,
 				FA3E475E1BACDBC8000CA56B /* Frameworks */,
 				FA3E475F1BACDBC8000CA56B /* Resources */,
+				D494D57BCA4F2924FF182193 /* Copy Pods Resources */,
+				1AD1EC3ADA6BE06F4720A8CC /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -90,6 +235,7 @@
 		FA3E47591BACDBC8000CA56B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = test;
 				TargetAttributes = {
@@ -123,19 +269,84 @@
 			files = (
 				FA3E476F1BACDBC8000CA56B /* LaunchScreen.storyboard in Resources */,
 				FA3E476C1BACDBC8000CA56B /* Assets.xcassets in Resources */,
+				FA8B54D31BAE1D070088E315 /* dummy.json in Resources */,
 				FA3E476A1BACDBC8000CA56B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1AD1EC3ADA6BE06F4720A8CC /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShoppingCart/Pods-ShoppingCart-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D494D57BCA4F2924FF182193 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShoppingCart/Pods-ShoppingCart-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBC8184371E09D3A67B23F6B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FA3E475D1BACDBC8000CA56B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA3E47671BACDBC8000CA56B /* ViewController.swift in Sources */,
+				FA8B54D61BAE1D540088E315 /* ViewController.swift in Sources */,
+				FA8B54DA1BAE1D6D0088E315 /* ViewControllerProductCellDelegate.swift in Sources */,
+				FA8B55011BAF530C0088E315 /* TotalBuyViewCell.swift in Sources */,
+				FA8B54E61BAE33D70088E315 /* ProdcutsManager.swift in Sources */,
+				FA8B54E01BAE1E470088E315 /* Product.swift in Sources */,
+				FA8B55251BAF6AE30088E315 /* ViewController+CoreData.swift in Sources */,
+				FA3E47801BACF1DE000CA56B /* Constants.swift in Sources */,
+				FA8B55231BAF68B10088E315 /* ViewControllerNSFetchedResultsControllerDelegate.swift in Sources */,
+				FA8B54CE1BAE1CD60088E315 /* ProductTableViewCell.swift in Sources */,
+				FA8B54D41BAE1D070088E315 /* ProductModel.xcdatamodeld in Sources */,
+				FA8B54FF1BAF52D80088E315 /* TotalBuyModalViewController.swift in Sources */,
+				FA3E47791BACEBA3000CA56B /* ViewControllerUITableViewDataSource.swift in Sources */,
+				FA8B54E41BAE2D170088E315 /* Manager.swift in Sources */,
+				FA8B54DF1BAE1E470088E315 /* Product+CoreDataProperties.swift in Sources */,
+				FA8B55271BAF6BA70088E315 /* ProductsManager+NSFechedResultsViewController.swift in Sources */,
 				FA3E47651BACDBC8000CA56B /* AppDelegate.swift in Sources */,
+				FA8B54F21BAF09C40088E315 /* Product+Utils.swift in Sources */,
+				FA0A2E751BAFA6F800CDFF9B /* TotalBuyViewControllerDataSource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,23 +455,30 @@
 		};
 		FA3E47741BACDBC8000CA56B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29BD1CC3EA19A9CDEA169D52 /* Pods-ShoppingCart.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = ShoppingCart/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = co.alextorres.ShoppingCart;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ShoppingCart-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		FA3E47751BACDBC8000CA56B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78D1DE1E3FD71567A5FB41A3 /* Pods-ShoppingCart.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = ShoppingCart/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = co.alextorres.ShoppingCart;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ShoppingCart-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -283,8 +501,22 @@
 				FA3E47751BACDBC8000CA56B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FA8B54D11BAE1D070088E315 /* ProductModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FA8B54D21BAE1D070088E315 /* ProductModel.xcdatamodel */,
+			);
+			currentVersion = FA8B54D21BAE1D070088E315 /* ProductModel.xcdatamodel */;
+			path = ProductModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = FA3E47591BACDBC8000CA56B /* Project object */;
 }

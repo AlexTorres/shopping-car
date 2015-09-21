@@ -1,0 +1,124 @@
+{
+    "products" : [
+    {
+    "_id": "55fccc81c4405aa2590bab11",
+    "name": "UNEEQ",
+    "price": "2221.1951",
+    "stock": 38
+  },
+  {
+    "_id": "55fccc81590b584b0674c1b7",
+    "name": "FUTURITY",
+    "price": "1246.0853",
+    "stock": 28
+  },
+  {
+    "_id": "55fccc81285efbe0e9b74e2b",
+    "name": "DIGIFAD",
+    "price": "3879.439",
+    "stock": 32
+  },
+  {
+    "_id": "55fccc81fb1c976c903be030",
+    "name": "ZIZZLE",
+    "price": "2130.9196",
+    "stock": 20
+  },
+  {
+    "_id": "55fccc8191349904fe39ea7f",
+    "name": "BICOL",
+    "price": "2094.0114",
+    "stock": 27
+  },
+  {
+    "_id": "55fccc81e6c1ae813f819e3c",
+    "name": "FURNITECH",
+    "price": "2385.858",
+    "stock": 29
+  },
+  {
+    "_id": "55fccc8115630c122812b6d3",
+    "name": "PROVIDCO",
+    "price": "1815.4243",
+    "stock": 29
+  },
+  {
+    "_id": "55fccc81ac752ed72b46b228",
+    "name": "ZILLATIDE",
+    "price": "1626.2541",
+    "stock": 28
+  },
+  {
+    "_id": "55fccc8101179cdb49b358b1",
+    "name": "UNISURE",
+    "price": "2688.8956",
+    "stock": 31
+  },
+  {
+    "_id": "55fccc81b6cd8269468ead19",
+    "name": "INTRAWEAR",
+    "price": "3924.5433",
+    "stock": 23
+  },
+  {
+    "_id": "55fccc8121795090ea0ac195",
+    "name": "EYERIS",
+    "price": "1916.6513",
+    "stock": 35
+  },
+  {
+    "_id": "55fccc8145f07ea5a55869cb",
+    "name": "FLUM",
+    "price": "1386.775",
+    "stock": 38
+  },
+  {
+    "_id": "55fccc8150d5ad80af35d1e8",
+    "name": "TALKOLA",
+    "price": "3186.8291",
+    "stock": 37
+  },
+  {
+    "_id": "55fccc8185ec112a35064c41",
+    "name": "QUOTEZART",
+    "price": "3704.9032",
+    "stock": 37
+  },
+  {
+    "_id": "55fccc812b34c9e5015cefc8",
+    "name": "ISOLOGIA",
+    "price": "2520.5549",
+    "stock": 37
+  },
+  {
+    "_id": "55fccc81d405c76d8b085328",
+    "name": "AQUASSEUR",
+    "price": "1267.2187",
+    "stock": 36
+  },
+  {
+    "_id": "55fccc81d8881455774a7f26",
+    "name": "COMSTAR",
+    "price": "3087.6127",
+    "stock": 40
+  },
+  {
+    "_id": "55fccc82eb148ad2d0d649c7",
+    "name": "WAAB",
+    "price": "2511.8789",
+    "stock": 27
+  },
+  {
+    "_id": "55fccc82d916bcff797b1244",
+    "name": "ENVIRE",
+    "price": "1067.3761",
+    "stock": 27
+  },
+  {
+    "_id": "55fccc8228688a0a7f65e6f7",
+    "name": "QUANTALIA",
+    "price": "2426.821",
+    "stock": 31
+  }
+  ]
+}
