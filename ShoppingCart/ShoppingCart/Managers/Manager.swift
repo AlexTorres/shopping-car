@@ -10,7 +10,4 @@ import Foundation
 typealias CompletionBooleanBlock = Bool? -> Void
 
 class Manager {
-    
-
-    
 }

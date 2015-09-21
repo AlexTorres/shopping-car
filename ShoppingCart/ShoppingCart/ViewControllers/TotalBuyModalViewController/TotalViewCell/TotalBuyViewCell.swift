@@ -13,32 +13,15 @@ var delegate:BuyTableViewCellProtocol?
     
     @IBOutlet weak var productNameLabel: UILabel!
     @IBOutlet weak var currentProducts: UILabel!
+        @IBOutlet weak var delete: UIButton!
     
     var productId:String?
     
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
-    }
-
-    override func setSelected(selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
-    }
-
-
-    
     @IBAction func deleteActtion(sender: AnyObject) {
         self.delegate?.deleteProduct(self)
-        
     }
-    @IBOutlet weak var delete: UIButton!
-    
 }
 
 protocol BuyTableViewCellProtocol {
-    // protocol definition goes here
     func deleteProduct(prodcutCell: TotalBuyViewCell)
- 
 }

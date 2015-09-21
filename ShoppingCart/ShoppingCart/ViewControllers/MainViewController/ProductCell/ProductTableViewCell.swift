@@ -14,10 +14,8 @@ class ProductTableViewCell: UITableViewCell {
     @IBOutlet weak var stockLabel: UILabel!
     @IBOutlet weak var buyProductButton: UIButton!
     @IBOutlet weak var itemsBought: UILabel!
-    
     var productid:String?
     var delegate:ProductTableViewCellProtocol?
-    
     let tapRec = UITapGestureRecognizer()
     
     @IBAction func buyProdcut(sender: AnyObject) {
@@ -27,7 +25,6 @@ class ProductTableViewCell: UITableViewCell {
 }
 
 protocol ProductTableViewCellProtocol {
-    // protocol definition goes here
     func buyProduct(prodcutCell: ProductTableViewCell)
    
 }

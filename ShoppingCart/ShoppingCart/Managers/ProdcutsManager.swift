@@ -12,8 +12,6 @@ import MagicalRecord
 import CoreData
 
 class ProductsManager: Manager {
-    
-    var gameScore: Int = 0
     var dummyJsonWasLoaded = false;
     var productsArray:Array<JSON> = []
     var productsCoreDataArray :Array <Product> = []

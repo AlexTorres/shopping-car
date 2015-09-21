@@ -15,17 +15,20 @@ extension ViewController:UITableViewDataSource {
 
     func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         if let sections = ProductsManager.sharedInstance.fetchedResultsController.sections {
+            
             return sections.count
         }
+        
         return 0
     }
     
-    func tableView(tableView: UITableView,
-        numberOfRowsInSection section: Int) -> Int {
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
             if let sections = ProductsManager.sharedInstance.fetchedResultsController.sections {
                 let currentSection = sections[section] as NSFetchedResultsSectionInfo
+                
                 return currentSection.numberOfObjects
             }
+            
             return 0
     }
     
@@ -36,9 +39,9 @@ extension ViewController:UITableViewDataSource {
         cell.priceLabel.text = String(product.price)
         cell.stockLabel.text = String(product.stock)
         cell.productid = product.id
-
         cell.itemsBought.text = "cart\(product.currentItems),price\(product.currentPrice)"
         cell.delegate = self
+        
         return cell
     }
 

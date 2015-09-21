@@ -14,8 +14,8 @@ extension Product {
         if(self.stock <= 0){
             return false
         } else {
-
             stock -= 1
+            
             return true
         }
     }
@@ -24,6 +24,7 @@ extension Product {
             return false
         } else {
             stock += 1
+            
             return true
         }
     }
@@ -38,12 +39,14 @@ extension Product {
     
     var currentItems:Int {
         get {
+            
             return maxstock - stock
         }
     }
     
     var currentPrice:Float {
         get {
+            
             return Float(currentItems) * price
         }
     }
